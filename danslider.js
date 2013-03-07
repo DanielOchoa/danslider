@@ -74,11 +74,11 @@ var Slider = {
   },
 
   slideLeftFull : function() {
-    Slider.sliderState();
     if (Slider.slideState < 3) {
       // tie to our android images..
       Slider.androidControl('left');
       // end
+      Slider.sliderState();
       Slider.slideLeft();
       Slider.slideState ++;
       // remove active state of the squares and then activate corresponding
