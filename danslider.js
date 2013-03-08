@@ -5,7 +5,7 @@ var Slider = {
   // variable
   slideState : 0,
 
-  // public functions _all are private in the end..
+  // public 
   run : function() {
     Slider.naturalStates();
     Slider.clickNext();
